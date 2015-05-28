@@ -41,6 +41,10 @@ int main()
             }
         }
         cout << endl;
-        
     }
+    
+    for( int height = 0; height < H; height++ ) {
+        delete[] Line[height];
+    }
+    delete[] Line;
 }
