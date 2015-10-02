@@ -5,3 +5,8 @@ hoge4
 hoge5
 hoge6
 hoge7
+あいうえお
+int main(void) {
+	int a = 0;
+	printf("%d", a);
+}
