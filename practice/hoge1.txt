@@ -16,3 +16,4 @@ hoge7.txt
 test branch
 
 ※merge testの一文です
+※merge testの一文です２
