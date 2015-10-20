@@ -8,7 +8,7 @@ public class UnityAdsScript : MonoBehaviour {
 	void Start () {
 		#if UNITY_ANDROID
 		Advertisement.Initialize("1009XXX");
-		#elif UNITY_IPHONE
+		#elif UNITY_IOS
 		Advertisement.Initialize("1009YYY");
 		#endif
 	}
